@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">Walid Ragoub</title>
+  <desc id="banner-desc">Technische Informatik · TH Köln. A blue line runs along the bottom of the card and ends in a dot right after the name.</desc>
+
+  <!-- Light variant: the portfolio's palette turned around. bg #FAFAFA, text #09090B, muted #52525B, line #D4D4D8,
+       and the accent deepened to #2563EB so it keeps its contrast on a light card.
+       Static: no scripts, no fonts or files loaded from anywhere. Geometry is the same as banner.svg. -->
+  <defs>
+    <clipPath id="card"><rect x="1" y="1" width="1278" height="398" rx="24"/></clipPath>
+    <radialGradient id="wash" gradientUnits="userSpaceOnUse" cx="989" cy="239" r="560">
+      <stop offset="0" stop-color="#2563EB" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" gradientUnits="userSpaceOnUse" cx="989" cy="239" r="60">
+      <stop offset="0" stop-color="#2563EB" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1278" height="398" rx="24" fill="#FAFAFA"/>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="400" fill="url(#wash)"/>
+    <!-- the road: travelled up to the dot, dotted from there on -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -20 336 H 913 A 76 76 0 0 0 989 260 V 228 A 64 64 0 0 1 1053 164 H 1300" stroke="#09090B" stroke-opacity=".04" stroke-width="30"/>
+      <path d="M 989 239 V 228 A 64 64 0 0 1 1053 164 H 1300" stroke="#09090B" stroke-opacity=".5" stroke-width="3" stroke-dasharray="1 13"/>
+      <path d="M -20 336 H 913 A 76 76 0 0 0 989 260 V 239" stroke="#2563EB" stroke-width="4"/>
+    </g>
+    <circle cx="989" cy="239" r="60" fill="url(#glow)"/>
+    <circle cx="989" cy="239" r="13" fill="#2563EB" stroke="#FAFAFA" stroke-width="4"/>
+  </g>
+
+  <rect x="1" y="1" width="1278" height="398" rx="24" fill="none" stroke="#D4D4D8" stroke-width="2"/>
+
+  <text x="80" y="104" fill="#52525B" font-family="'JetBrains Mono', ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="48" font-weight="500" letter-spacing="4.9" textLength="1040" lengthAdjust="spacing">TECHNISCHE INFORMATIK · TH KÖLN</text>
+  <text x="80" y="252" fill="#09090B" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="140" font-weight="700" letter-spacing="-4.2" textLength="880" lengthAdjust="spacing">Walid Ragoub</text>
+</svg>
