@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 330" width="1280" height="330" role="img" aria-labelledby="closing-title closing-desc">
+  <title id="closing-title">Thanks for reading. Let's talk.</title>
+  <desc id="closing-desc">The blue line from the banner runs along the bottom of the card and ends in a dot right after the last word. A dotted line runs on from the dot to the edge.</desc>
+
+  <!-- Dark variant: closing card, accent #60A5FA. bg #09090B, text #FAFAFA, line #27272A.
+       Static: no scripts, no fonts or files loaded from anywhere. -->
+  <defs>
+    <clipPath id="card"><rect x="1" y="1" width="1278" height="328" rx="24"/></clipPath>
+    <radialGradient id="wash" gradientUnits="userSpaceOnUse" cx="469" cy="218" r="560">
+      <stop offset="0" stop-color="#60A5FA" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" gradientUnits="userSpaceOnUse" cx="469" cy="218" r="52">
+      <stop offset="0" stop-color="#60A5FA" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1278" height="328" rx="24" fill="#09090B"/>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="330" fill="url(#wash)"/>
+    <!-- the road: travelled up to the dot, dotted from there on -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -20 286 H 413 A 56 56 0 0 0 469 230 V 218 H 1300" stroke="#FAFAFA" stroke-opacity=".045" stroke-width="30"/>
+      <path d="M 469 218 H 1300" stroke="#FAFAFA" stroke-opacity=".4" stroke-width="3" stroke-dasharray="1 13"/>
+      <path d="M -20 286 H 413 A 56 56 0 0 0 469 230 V 218" stroke="#60A5FA" stroke-width="4"/>
+    </g>
+    <circle cx="469" cy="218" r="52" fill="url(#glow)"/>
+    <circle cx="469" cy="218" r="10" fill="#60A5FA" stroke="#09090B" stroke-width="4"/>
+  </g>
+
+  <rect x="1" y="1" width="1278" height="328" rx="24" fill="none" stroke="#27272A" stroke-width="2"/>
+
+  <text x="80" y="128" fill="#FAFAFA" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="-2.8">Thanks for reading.</text>
+  <text x="80" y="228" fill="#FAFAFA" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="-2.8" textLength="366" lengthAdjust="spacing">Let's talk</text>
+</svg>

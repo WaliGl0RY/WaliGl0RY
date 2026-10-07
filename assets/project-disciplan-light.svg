@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 220" width="1280" height="220" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">DisciPlan</title>
+  <desc id="cover-desc">Project card: the name DisciPlan and a grid of day squares in the project's colour.</desc>
+
+  <!-- Light variant: project card for DisciPlan, project colour #C0392B. bg #FAFAFA, text #09090B, line #D4D4D8.
+       Static: no scripts, no fonts or files loaded from anywhere. -->
+  <defs>
+    <clipPath id="card"><rect x="1" y="1" width="1278" height="218" rx="24"/></clipPath>
+    <radialGradient id="wash" gradientUnits="userSpaceOnUse" cx="1060" cy="110" r="520">
+      <stop offset="0" stop-color="#C0392B" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#C0392B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1278" height="218" rx="24" fill="#FAFAFA"/>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="220" fill="url(#wash)"/>
+    <rect x="884" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="1.0"/>
+    <rect x="884" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="1.0"/>
+    <rect x="884" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="1.0"/>
+    <rect x="884" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="1.0"/>
+    <rect x="920" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.91"/>
+    <rect x="920" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.91"/>
+    <rect x="920" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.91"/>
+    <rect x="920" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.91"/>
+    <rect x="956" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.82"/>
+    <rect x="956" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.82"/>
+    <rect x="956" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.82"/>
+    <rect x="956" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.82"/>
+    <rect x="992" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.74"/>
+    <rect x="992" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.74"/>
+    <rect x="992" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.74"/>
+    <rect x="992" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.74"/>
+    <rect x="1028" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.65"/>
+    <rect x="1028" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.65"/>
+    <rect x="1028" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.65"/>
+    <rect x="1028" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.65"/>
+    <rect x="1064" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.56"/>
+    <rect x="1064" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.56"/>
+    <rect x="1064" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.56"/>
+    <rect x="1064" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.56"/>
+    <rect x="1100" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.47"/>
+    <rect x="1100" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.47"/>
+    <rect x="1100" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.47"/>
+    <rect x="1100" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.47"/>
+    <rect x="1136" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.38"/>
+    <rect x="1136" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.38"/>
+    <rect x="1136" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.38"/>
+    <rect x="1136" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.38"/>
+    <rect x="1172" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.3"/>
+    <rect x="1172" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.3"/>
+    <rect x="1172" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.3"/>
+    <rect x="1172" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.3"/>
+    <rect x="1208" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.21"/>
+    <rect x="1208" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.21"/>
+    <rect x="1208" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.21"/>
+    <rect x="1208" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.21"/>
+    <rect x="1244" y="43" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.12"/>
+    <rect x="1244" y="79" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.12"/>
+    <rect x="1244" y="115" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.12"/>
+    <rect x="1244" y="151" width="26" height="26" rx="6" fill="#C0392B" fill-opacity="0.12"/>
+  </g>
+
+  <rect x="1" y="1" width="1278" height="218" rx="24" fill="none" stroke="#D4D4D8" stroke-width="2"/>
+  <rect x="0" y="48" width="7" height="124" rx="3.5" fill="#C0392B"/>
+
+  <text x="80" y="145" fill="#09090B" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="100" font-weight="700" letter-spacing="-3"><tspan fill="#C0392B">D</tspan>isciPlan</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 96" width="392" height="96" role="img" aria-labelledby="button-title">
+  <title id="button-title">See my portfolio</title>
+
+  <!-- Dark variant: solid button. fill #FAFAFA, text #09090B.
+       Static: no scripts, no fonts or files loaded from anywhere. -->
+  <rect width="392" height="96" rx="48" fill="#FAFAFA"/>
+  <text x="196" y="58" text-anchor="middle" fill="#09090B" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="600">See my portfolio →</text>
+</svg>

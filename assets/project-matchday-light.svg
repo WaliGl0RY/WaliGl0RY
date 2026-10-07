@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 220" width="1280" height="220" role="img" aria-labelledby="cover-title cover-desc">
+  <title id="cover-title">MatchDay</title>
+  <desc id="cover-desc">Project card: the name MatchDay and a knockout bracket in the project's colour.</desc>
+
+  <!-- Light variant: project card for MatchDay, project colour #C2410C. bg #FAFAFA, text #09090B, line #D4D4D8.
+       Static: no scripts, no fonts or files loaded from anywhere. -->
+  <defs>
+    <clipPath id="card"><rect x="1" y="1" width="1278" height="218" rx="24"/></clipPath>
+    <radialGradient id="wash" gradientUnits="userSpaceOnUse" cx="1060" cy="110" r="520">
+      <stop offset="0" stop-color="#C2410C" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#C2410C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" gradientUnits="userSpaceOnUse" cx="1144" cy="110" r="52">
+      <stop offset="0" stop-color="#C2410C" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#C2410C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1278" height="218" rx="24" fill="#FAFAFA"/>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="220" fill="url(#wash)"/>
+    <g fill="none" stroke="#C2410C" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 884 50 H 950 V 70 M 884 130 H 950 V 170 H 884 M 950 150 H 1030 V 110" stroke-opacity=".38"/>
+      <path d="M 884 90 H 950 V 70 H 1030 V 110 H 1110"/>
+    </g>
+    <circle cx="1144" cy="110" r="52" fill="url(#glow)"/>
+    <circle cx="1144" cy="110" r="16" fill="#C2410C" stroke="#FAFAFA" stroke-width="4"/>
+  </g>
+
+  <rect x="1" y="1" width="1278" height="218" rx="24" fill="none" stroke="#D4D4D8" stroke-width="2"/>
+  <rect x="0" y="48" width="7" height="124" rx="3.5" fill="#C2410C"/>
+
+  <text x="80" y="145" fill="#09090B" font-family="Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="100" font-weight="700" letter-spacing="-3">MatchDa<tspan fill="#C2410C">y</tspan></text>
+</svg>
