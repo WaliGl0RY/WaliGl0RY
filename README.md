@@ -55,7 +55,6 @@ I'm interested in networking and IT security, and I'm fascinated by the developm
 
 ## Contact
 
-- Email: [walid.ragoub@smail.th-koeln.de](mailto:walid.ragoub@smail.th-koeln.de)
 - Portfolio: [waligl0ry.github.io/PORTFOLIOv1](https://waligl0ry.github.io/PORTFOLIOv1/)
 
 I'd be glad to work on something like this with you: as a tutor, a student assistant or in a project.
