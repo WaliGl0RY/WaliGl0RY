@@ -9,7 +9,7 @@
 I'm Walid, 22 years old, in my fifth semester of Technische Informatik at TH Köln. I came to Germany from Morocco as an international student, and I decided to just start instead of overthinking how. Today I'm a working student in technical support at voize, and I'm building things I'm proud of.
 
 <p>
-  <a href="https://waligl0ry.github.io/PORTFOLIOv1/">
+  <a href="https://waligl0ry.github.io/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/button-portfolio.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/button-portfolio-light.svg">
@@ -18,7 +18,7 @@ I'm Walid, 22 years old, in my fifth semester of Technische Informatik at TH Kö
   </a>
 </p>
 
-<p lang="de">Technische Informatik an der TH Köln. <a href="https://waligl0ry.github.io/PORTFOLIOv1/" hreflang="de">Diese Seite gibt es auch auf Deutsch.</a></p>
+<p lang="de">Technische Informatik an der TH Köln. <a href="https://waligl0ry.github.io/" hreflang="de">Diese Seite gibt es auch auf Deutsch.</a></p>
 
 ## What I build
 
@@ -95,10 +95,8 @@ I'm interested in networking and IT security, and I'm fascinated by the developm
   </picture>
 </p>
 
-I'd be glad to work on something like this with you: as a tutor, a student assistant or in a project.
-
 <p>
-  <a href="https://waligl0ry.github.io/PORTFOLIOv1/">
+  <a href="https://waligl0ry.github.io/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/button-portfolio.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/button-portfolio-light.svg">
